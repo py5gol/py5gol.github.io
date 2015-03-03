@@ -49,7 +49,7 @@ O Vagrant é um gerenciador de máquinas virtuais que foca em criar processos si
 
 Após a instalação do Vagrant (provavelmente você vai precisar reiniciar o computador antes de seguir adiante), abra um prompt de comando (Programas -> Acessórios -> Prompt de comando) e digite os comandos a seguir.
 
-```shell
+{% highlight sh %}
 cd Documents
 
 mkdir vm
@@ -59,7 +59,7 @@ cd vm
 vagrant init hashicorp/precise32
 
 vagrant up
-```
+{% endhighlight %}
 
 Os comandos abaixo vão criar uma pasta **vm** dentro da pasta **Documents**, criar uma máquina virtual baseada no modelo hashicorp/precise32 e inicia-la. O primeiro processo de inicialização pode demorar algum tempo porque o Vagrant vai copiar este modelo para o computador local (aproximadamente 200MB). A inicialização das próximas máquinas será muito mais rápido porque a cópia será local.
 
