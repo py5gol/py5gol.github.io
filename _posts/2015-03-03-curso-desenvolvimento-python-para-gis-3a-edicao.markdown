@@ -13,6 +13,24 @@ Nesta edi&ccedil;&atilde;o eu decidi publicar parte das informa&ccedil;&otilde;e
 
 Não existe restrição de ambiente para assistir o curso, mas os exemplos utilizam o ambiente Linux. Sendo assim, o primeiro passo do curso é configurar um ambiente Linux que possa ser utilizado durante o curso. Nós utilizamos o [Vagrant][vagrant] com [VirtualBox][virtualbox] pela facilidade de instalação e configuração e também por serem gratuitos.
 
+Primeiro instale o VirtualBox
+
+Durante o processo de instalação são feitas várias perguntas para autorizar a instalação de devices do VirtualBox. Simplemente aceite todas, o que permitirá o uso de dispositivos usb entre outros nas máquinas virtuais.
+
+![Instalação do VirtualBox]({{ site.url }}/downloads/Untitled01.png)
+
+![Instalação do VirtualBox]({{ site.url }}/downloads/Untitled02.png)
+
+![Instalação do VirtualBox]({{ site.url }}/downloads/Untitled03.png)
+
+![Instalação do VirtualBox]({{ site.url }}/downloads/Untitled04.png)
+
+![Instalação do VirtualBox]({{ site.url }}/downloads/Untitled05.png)
+
+![Instalação do VirtualBox]({{ site.url }}/downloads/Untitled06.png)
+
+![Instalação do VirtualBox]({{ site.url }}/downloads/Untitled07.png)
+
 
 [geocursos-python]: http://www.geocursos.com.br/python
 [vagrant]: http://www.vagrantup.com
