@@ -67,8 +67,53 @@ Após a inicialização da máquina virtual, você deverá ver as seguintes mens
 
 ![Instalação do Vagrant]({{ site.url }}/downloads/Untitled13.png)
 
+**Conectando-se a máquina virtual**
+
+Para acessar a máquina virtual, precisamos de um programa que trabalhe com o protocolo SSH. Neste curso vamos utilizar o [Putty][putty], um cliente SSH para Windows que é gratuito e simples.
+
+Para começar, faça o download do programa neste [link][putty-download]. Salve o programa na sua Área de Trabalho (ou Desktop).
+
+![Instalação do Vagrant]({{ site.url }}/downloads/Untitled14.png)
+
+Faça um duplo clique sobre o ícone do Putty para iniciar o programa.
+
+![Instalação do Vagrant]({{ site.url }}/downloads/Untitled15.png)
+
+Preencha os dados solicitados.
+
+```
+Host Name (or IP address): localhost
+Port: 2222
+Saved Sessions: vm
+```
+
+Agora, clique no botão **Save** para gravar estes dados no perfil **vm**. A partir de agora basta um duplo clique no perfil **vm** para carregar os dados e abrir uma sessão.
+
+![Instalação do Vagrant]({{ site.url }}/downloads/Untitled16.png)
+
+Na primeira vez que você tentar conectar-se à máquina virtual, o Putty irá informar que as chaves de segurança não parece ser a correta e se você confia no servidor. Diga que sim clicando no botão **Yes**.
+
+![Instalação do Vagrant]({{ site.url }}/downloads/Untitled16.png)
+
+A máquina virtual vai solicitar um usuário e senha para autorizar a conexão. Utilize os dados a seguir.
+
+```
+usuário: vagrant
+senha: vagrant
+```
+
+![Instalação do Vagrant]({{ site.url }}/downloads/Untitled17.png)
+
+Se você chegou até aqui e não ocorreu nenhum problema no caminha, parabéns!!! Você tem a sua disposição uma máquina virtual rodando o sistema operacional Linux, distribuição Ubuntu 14.04.2 LTS.
+
+Espero que este pequeno passo a passo seja útil nos seus estudos.
+
+Abraço,
+
+Roberto
 
 [geocursos-python]: http://www.geocursos.com.br/python
 [vagrant]: http://www.vagrantup.com
 [virtualbox]: https://www.virtualbox.org
-
+[putty]: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+[putty-download]: http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
