@@ -13,7 +13,7 @@ Nesta edi&ccedil;&atilde;o eu decidi publicar parte das informa&ccedil;&otilde;e
 
 Não existe restrição de ambiente para assistir o curso, mas os exemplos utilizam o ambiente Linux. Sendo assim, o primeiro passo do curso é configurar um ambiente Linux que possa ser utilizado durante o curso. Nós utilizamos o [Vagrant][vagrant] com [VirtualBox][virtualbox] pela facilidade de instalação e configuração e também por serem gratuitos.
 
-*Instalação do VirtualBox*
+**Instalação do VirtualBox**
 
 O VirtualBox é um gerenciador de máquinas virtuais criado pela antiga Sun, atual Oracle. Durante o curso nós vamos utiliza-lo de forma indireta, através do Vagrant.
 
@@ -33,7 +33,37 @@ Durante o processo de instalação são feitas várias perguntas para autorizar 
 
 ![Instalação do VirtualBox]({{ site.url }}/downloads/Untitled07.png)
 
-*Instalação do Vagrant*
+**Instalação do Vagrant**
+
+O Vagrant é um gerenciador de máquinas virtuais que foca em criar processos simplificados para criação manual e automática destas máquinas. O Vagrant é programa muito útil quando precisamos criar uma máquina virtual rapidamente ou se queremos por exemplo criar várias máquinas com as mesmas configurações.
+
+![Instalação do Vagrant]({{ site.url }}/downloads/Untitled08.png)
+
+![Instalação do Vagrant]({{ site.url }}/downloads/Untitled09.png)
+
+![Instalação do Vagrant]({{ site.url }}/downloads/Untitled10.png)
+
+![Instalação do Vagrant]({{ site.url }}/downloads/Untitled11.png)
+
+![Instalação do Vagrant]({{ site.url }}/downloads/Untitled12.png)
+
+Após a instalação do Vagrant (provavelmente você vai precisar reiniciar o computador antes de seguir adiante), abra um prompt de comando (Programas -> Acessórios -> Prompt de comando) e digite os comandos a seguir.
+
+```shell
+cd Documents
+
+mkdir vm
+
+cd vm
+
+vagrant init hashicorp/precise32
+
+vagrant up
+```
+
+Os comandos abaixo vão criar uma pasta **vm** dentro da pasta **Documents**, criar uma máquina virtual baseada no modelo hashicorp/precise32 e inicia-la. O primeiro processo de inicialização pode demorar algum tempo porque o Vagrant vai copiar este modelo para o computador local (aproximadamente 200MB). A inicialização das próximas máquinas será muito mais rápido porque a cópia será local.
+
+
 
 [geocursos-python]: http://www.geocursos.com.br/python
 [vagrant]: http://www.vagrantup.com
