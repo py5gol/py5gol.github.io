@@ -13,4 +13,3 @@ apt-get update
 apt-get install python-gdal gdal-bin
 
 {% endhighlight %}
-
