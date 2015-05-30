@@ -13,5 +13,6 @@ Abraços,
 Roberto
 
 Santos, Roberto, and Heitor Lopes. 2012. “Regressão simbólica sobre séries temporais de dados meterológicos utilizando programação genética.” In IX Encontro Nacional de Inteligência Artificial - ENIA, 9. Curitiba, Brazil.
-![Download]({{ site.url }}/downloads/105871_2.pdf)
+
+[Download]({{ site.url }}/downloads/105871_2.pdf)
 
