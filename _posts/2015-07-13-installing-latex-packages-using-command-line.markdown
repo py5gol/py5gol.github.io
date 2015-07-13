@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Installing latex packages using the command line tool"
-date:   2014-03-15 22:10:37
+date:   2015-07-13 17:22:00
 categories: latex
 ---
 
