@@ -27,11 +27,12 @@
 
           {{ content }}
 
+          {% include comments.html %}
+
           <div class="footer">
             <div class="contact">
               <p>
                 Roberto Santos<br />
-                py5gol@gmail.com
               </p>
             </div>
             <div class="contact">
@@ -42,5 +43,6 @@
           </div>
         </div>
 
+        {% include googleanalytics.html %}
     </body>
 </html>
