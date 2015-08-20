@@ -16,30 +16,23 @@
     <body>
 
         <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/contactinfo.html">contact info</a>
-            <a class="extra" href="/publications.html">publications</a>
-            <a class="extra" href="/shortbio.html">short bio</a>
-
-            <!--<a class="extra" href="/research.html">research</a>-->
+          <div class="header_name">
+            <h1>Roberto Santos</h1>
           </div>
+          <div class="header">
+            <a class="extra" href="/index.html">home</a>
+            <a class="extra" href="/research.html">research</a>
+            <a class="extra" href="/publications.html">publications</a>
+            <a class="extra" href="/cv.html">cv</a>
+            <a class="extra" href="http://lattes.cnpq.br/1161222329597802" target="_blank">lattes</a>
+          </div>
+
+          <br/>
+          <br/>
 
           {{ content }}
 
-          {% include comments.html %}
-
           <div class="footer">
-            <div class="contact">
-              <p>
-                Roberto Santos<br />
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://twitter.com/py5gol">twitter.com/py5gol</a><br />
-              </p>
-            </div>
           </div>
         </div>
 
