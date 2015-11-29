@@ -1,43 +1,55 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<html lang="en">
+<head>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    </head>
-    <body>
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-        <div class="site">
-          <div class="header_name">
-            <h1>Roberto Santos</h1>
-          </div>
-          <div class="header">
-            <a class="extra" href="/index.html">home</a>
-            <a class="extra" href="/research.html">research</a>
-            <a class="extra" href="/publications.html">publications</a>
-            <a class="extra" href="/cv.html">cv</a>
-            <a class="extra" href="http://lattes.cnpq.br/1161222329597802" target="_blank">lattes</a>
-            <a class="extra" href="https://scholar.google.com/citations?user=BJOBZIUAAAAJ" target="_blank">google scholar</a>
-            <a class="extra" href="https://orcid.org/0000-0003-1333-2605" target="_blank">orcid</a>
-          </div>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
 
-          <br/>
-          <br/>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
-          {{ content }}
-
-          <div class="footer">
-          </div>
+</head>
+<body>
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="row">
+            <div class="ten columns">
+                <h1>Roberto Santos</h1>
+                <a class="button" href="/index.html">home</a>
+                <a class="button" href="/research.html">research</a>
+                <a class="button" href="/software.html">software development & maps</a>
+                <!--<a class="button" href="/publications.html">publications</a>-->
+                <a class="button" href="/about.html">about</a>
+                <!--<a class="button" href="http://lattes.cnpq.br/1161222329597802" target="_blank">lattes</a>
+                <a class="button" href="https://scholar.google.com/citations?user=BJOBZIUAAAAJ" target="_blank">google scholar</a>
+                <a class="button" href="https://orcid.org/0000-0003-1333-2605" target="_blank">orcid</a>-->
+            </div>
         </div>
-
-        {% include googleanalytics.html %}
-    </body>
+        <div class="row">
+            <div class="ten columns" style="margin-top: 0%">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    {% include googleanalytics.html %}
+</body>
 </html>
