@@ -7,42 +7,146 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://example.com/</loc>
-  <lastmod>2020-08-30T20:13:00Z</lastmod>
+  <lastmod>2021-11-19T13:16:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/2012/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/2020/</loc>
-  <lastmod>2020-08-30T20:05:00Z</lastmod>
+  <lastmod>2021-11-19T13:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/2021/</loc>
+  <lastmod>2021-11-19T13:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/archive.html</loc>
-  <lastmod>2020-08-30T20:32:00Z</lastmod>
+  <lastmod>2021-11-19T13:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/authors/</loc>
+  <lastmod>2021-11-19T13:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/authors/roberto-alsina/</loc>
+  <lastmod>2021-11-19T13:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/authors/your-name/</loc>
+  <lastmod>2021-11-19T13:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/</loc>
-  <lastmod>2020-08-30T20:05:00Z</lastmod>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/running/</loc>
-  <lastmod>2020-08-30T20:05:00Z</lastmod>
+  <loc>https://example.com/categories/blog/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/categories/cat_nikola/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/categories/demo/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/categories/nikola/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/categories/python/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/galleries/</loc>
-  <lastmod>2020-08-30T19:57:00Z</lastmod>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/galleries/demo/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/listings/</loc>
-  <lastmod>2020-08-30T19:57:00Z</lastmod>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/about/</loc>
-  <lastmod>2020-08-30T20:13:00Z</lastmod>
+  <loc>https://example.com/listings/__pycache__/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/about/</loc>
-  <lastmod>2020-08-30T20:32:00Z</lastmod>
+  <loc>https://example.com/listings/hello.py.html</loc>
+  <lastmod>2021-11-19T13:16:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/pages/about-nikola/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/pages/bootstrap-demo/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/pages/charts/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/pages/creating-a-theme/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/pages/dr-nikolas-vendetta/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/pages/extending/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/pages/handbook/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/pages/internals/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/pages/listings-demo/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/pages/path-handlers/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/pages/quickref/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/pages/quickstart/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/pages/social_buttons/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/pages/theming/</loc>
+  <lastmod>2021-11-19T12:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/posts/about-me/</loc>
+  <lastmod>2021-11-19T13:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/posts/beginning-with-pytorch-and-remote-sensing-data/</loc>
+  <lastmod>2021-11-19T13:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/posts/couch-to-5k-i-am-back/</loc>
-  <lastmod>2020-08-30T20:05:00Z</lastmod>
+  <lastmod>2021-11-19T13:02:00Z</lastmod>
  </url>
 </urlset>
