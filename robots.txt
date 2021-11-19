@@ -1,4 +1,4 @@
-Sitemap: https://example.com/sitemapindex.xml
+Sitemap: https://py5gol.github.io/sitemapindex.xml
 
 User-Agent: *
-Host: example.com
+Host: py5gol.github.io
